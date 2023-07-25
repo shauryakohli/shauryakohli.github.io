@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
   const contactLink = document.getElementById("contactLink");
   const customModal = document.getElementById("customModal");
-  let timeoutId;
+
+  // Add event listener to the Contact Us link
+  contactLink.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the link from redirecting (optional)
+    displayModal();
+  });
 
   // Function to display the pop-up (modal)
   function displayModal() {
@@ -14,35 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
     customModal.style.display = "none";
   });
 
-  // Add event listener to the Contact Us link
-  contactLink.addEventListener("click", function (event) {
-    event.preventDefault(); // Prevent the link from redirecting (optional)
-    displayModal();
-  });
-
-  // Function to hide the anchor content with a brief delay
-  function hideAnchorContent() {
-    timeoutId = setTimeout(() => {
-      // Set the display property of anchor content to "none"
-      // when the mouse leaves the anchor element
-      this.style.display = "none";
-    }, 600); // Adjust the delay time (in milliseconds) as needed
-  }
-
-  // Get all anchor elements on the entire website
-  const anchorTags = document.querySelectorAll("a");
-
-  // Add event listeners for hover events for each anchor element
-  anchorTags.forEach((anchor) => {
-    anchor.classList.add("hover-underline");
-
-    anchor.addEventListener("mouseenter", function() {
-      clearTimeout(timeoutId);
-      // Set the display property of anchor content to "block"
-      // when the mouse enters the anchor element
-      this.style.display = "block";
-    });
-
-    anchor.addEventListener("mouseleave", hideAnchorContent);
+  // Close the pop-up when clicking outside the modal content
+  window.addEventListener("click", function (event) {
+    if (event.target === customModal) {
+      customModal.style.display = "none";
+    }
   });
 });
