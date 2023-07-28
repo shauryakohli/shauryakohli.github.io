@@ -114,11 +114,6 @@ button:hover {
     padding-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  .headercolor a:hover {
-    text-decoration: underline !important;
-    color: black !important; /* Change the color to the desired color on hover */
-  }
-
   .upper-bar
   {
     background-color: burlywood
@@ -128,7 +123,7 @@ button:hover {
     display: flex;
     background-color:rgb(219, 215, 215);
     text-align: center;
-    
+    text-decoration: none;  
   }
   .contents1
   {
@@ -137,10 +132,6 @@ button:hover {
     text-align: center;
     position: relative;
     top: 7px;
-  }
-  .starting1 a:hover {
-    color: red!important; /* Replace "red" with your desired color */
- /* You can keep the underline if you want */
   }
  
 .starting1 .contents1 a h4 {
@@ -217,19 +208,18 @@ button:hover {
     position: absolute;
     padding-left: 20px;
   }
-  a:hover {
-    text-decoration: underline!important;
-    color: darkred!important; /* Change the color to the desired color on hover */
-  }
   a:link{
     color: black;
   }
   a:visited{
-    color:rgb(184, 11, 11);
+    color: black;
   }
   a:active{
     color: black;
-  }
+}
+a:hover {
+  color: darkred!important;
+}
 
 #a1
   {

@@ -238,16 +238,16 @@ html{
         
       }
       a:link{
-        color: white;
+        color: black;
       }
       a:visited{
-        color: white;
+        color: black;
       }
       a:active{
-        color: white;
+        color: black;
     }
     a:hover {
-      color: black;
+      color: darkred;
     }
     #a1
   {

@@ -1,27 +1,26 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  color: #a1952c;
 }
 
 .dropbtn {
   color: #79b07b; /* Green color for text */
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none; /* Remove underline from the link */
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-   /* Light gray background color */
-  background-color: #bcb253;
+  background-color: #e0c330; /* Light gray background color */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 8px 0; /* Add some padding to the content */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Style the links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 8px 16px; /* Reduce padding for a more compact menu */
@@ -29,9 +28,11 @@
   display: block;
 }
 
+/* Change link color on hover */
 .dropdown-content a:hover {
-   /* Slightly darker gray background color on hover */
-   background-color: #d5d907;
+  background-color: #f1f1f1; /* Gray background color on hover */
+  color: darkred; /* Green color for text on hover */
+  text-decoration: underline;
 }
 
 /* Responsive styles */

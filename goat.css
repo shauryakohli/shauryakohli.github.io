@@ -215,13 +215,13 @@ html{
       color: black;
     }
     a:visited{
-        color: black;
+      color: black;
     }
     a:active{
       color: black;
   }
   a:hover {
-    color: black;
+    color: darkred;
   }
   #a1
   {
