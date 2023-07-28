@@ -14,7 +14,7 @@ html{
   }
   
   .modal-content {
-    background-color: rgb(228, 240, 96); /* Leather color */
+    background-color: rgb(245, 224, 63) /* Leather color */;
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     max-width: 80%; /* Adjust the maximum width as needed */
@@ -43,13 +43,13 @@ html{
   /* Leather-themed styling */
   h2 {
     font-size: 24px;
-    color: #3d2c1f; /* Dark brown */
+    color:darkred; /* Dark brown */
     margin-bottom: 15px;
   }
   
   p {
     font-size: 16px;
-    color: #635040; /* Light brown */
+    color: black; /* Light brown */
     margin-bottom: 10px;
   }
   
@@ -194,7 +194,7 @@ html{
         position: absolute;
         left: 690px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: darkblue
+        color: black
       }
       .row {
         display: flex;
@@ -253,6 +253,10 @@ html{
   {
     position: relative;
     padding-left: 165px;
+  }
+  #contactLink
+  {
+    color: black;
   }
       
     

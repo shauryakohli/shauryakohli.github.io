@@ -43,13 +43,13 @@ body{
 /* Leather-themed styling */
 h2 {
   font-size: 24px;
-  color: #3d2c1f; /* Dark brown */
+  color:darkred; /* Dark brown */
   margin-bottom: 15px;
 }
 
 p {
   font-size: 16px;
-  color: #635040; /* Light brown */
+  color: black; /* Light brown */
   margin-bottom: 10px;
 }
 
@@ -250,6 +250,11 @@ button:hover {
     position: relative;
     padding-left: 165px;
   }
+  #contactLink
+{
+  color: black;
+}
+    
   
   
   
