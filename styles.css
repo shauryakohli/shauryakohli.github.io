@@ -131,12 +131,14 @@ button:hover {
     flex: 53.33%;
     color:black;
     text-align: center;
+    position: relative;
+    top: 7px;
   }
  
-.starting1 .contents1 a h3 {
+.starting1 .contents1 a h4 {
   color: black !important;
 }
-.starting1 .dropbtn h3{
+.starting1 .dropbtn h4{
   color: black !important;
 }
   .background {
@@ -208,17 +210,17 @@ button:hover {
     padding-left: 20px;
   }
   a:link{
-    color: black
+    color: black;
   }
   a:visited{
-      color: black
+    color:rgb(184, 11, 11);
   }
   a:active{
-    color: black
+    color: black;
   }
  
 a:hover {
-  color:darkgoldenrod
+  color:rgb(184, 11, 11)
 }
 #a1
   {

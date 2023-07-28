@@ -137,16 +137,18 @@ button:hover {
       color:black;
       text-align: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
+      position: relative;
+      top: 7px;
     }
     .background {
       position: relative;
       text-align: center;
       color: white;
     }
-    .starting1 .contents1 a h3 {
+    .starting1 .contents1 a h4 {
       color: black !important;
     }
-    .starting1 .dropbtn h3{
+    .starting1 .dropbtn h4{
       color: black !important;
     }
     /* Bottom left text */
@@ -190,6 +192,7 @@ button:hover {
     {
       position: relative;
       padding-left: 10px;
+      top:15px
     }
     .content2
     {

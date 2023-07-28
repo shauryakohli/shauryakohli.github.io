@@ -133,16 +133,18 @@ html{
       color:black;
       text-align: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
+      position: relative;
+      top: 7px;
     }
     .background {
       position: relative;
       text-align: center;
       color: white;
     }
-    .starting1 .contents1 a h3 {
+    .starting1 .contents1 a h4 {
       color: black !important;
     }
-    .starting1 .dropbtn h3{
+    .starting1 .dropbtn h4{
       color: black !important;
     }
     
@@ -186,6 +188,7 @@ html{
     .container
     {
       position: relative;
+      top:15px;
       padding-left: 5px;
     }
     .content2
