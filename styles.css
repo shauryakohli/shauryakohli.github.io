@@ -68,7 +68,7 @@ button:hover {
 
 
 /* Additional styles to make the pop-up more responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .modal-content {
     max-width: 90%;
     width: 90%;
@@ -114,6 +114,10 @@ button:hover {
     padding-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+  .headercolor a:hover {
+    text-decoration: underline !important;
+    color: black !important; /* Change the color to the desired color on hover */
+  }
 
   .upper-bar
   {
@@ -134,12 +138,16 @@ button:hover {
     position: relative;
     top: 7px;
   }
+  .starting1 a:hover {
+    color: red!important; /* Replace "red" with your desired color */
+ /* You can keep the underline if you want */
+  }
  
 .starting1 .contents1 a h4 {
-  color: black !important;
+  color: black ;
 }
 .starting1 .dropbtn h4{
-  color: black !important;
+  color: black ;
 }
   .background {
     position: relative;
@@ -209,6 +217,10 @@ button:hover {
     position: absolute;
     padding-left: 20px;
   }
+  a:hover {
+    text-decoration: underline!important;
+    color: darkred!important; /* Change the color to the desired color on hover */
+  }
   a:link{
     color: black;
   }
@@ -218,10 +230,7 @@ button:hover {
   a:active{
     color: black;
   }
- 
-a:hover {
-  color:rgb(184, 11, 11)
-}
+
 #a1
   {
     position: relative;

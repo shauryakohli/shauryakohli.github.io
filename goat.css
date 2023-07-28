@@ -67,10 +67,11 @@ html{
   }
   
   /* Additional styles to make the pop-up more responsive */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     .modal-content {
       max-width: 90%;
       width: 90%;
+      font-family: 16px;
     }
   }
   
@@ -78,21 +79,20 @@ html{
     .modal-content {
       max-width: 95%;
       width: 95%;
+      font-size: 14px;
     }
+    img {
+      max-width: 80%; /* You can adjust the percentage value to your preference */
   }
-  
-  /* Additional styles to make the pop-up more responsive */
-  @media screen and (max-width: 768px) {
-    .modal-content {
-      max-width: 90%;
-      width: 90%;
-    }
   }
-  
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 450px) {
     .modal-content {
       max-width: 95%;
       width: 95%;
+      font-size: 12px;
+      img {
+        max-width: 70%; /* You can adjust the percentage value to your preference */
+    }
     }
   }.starting
     {
