@@ -3,7 +3,6 @@ html{
   margin: 0;
 }
 .custom-modal {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,6 +21,7 @@ html{
   margin: 50px auto;
   padding: 20px;
   position: relative;
+  display: none;
 }
 
 .close {
