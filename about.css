@@ -14,7 +14,7 @@ html{
   }
   
   .modal-content {
-    background-color: #c1c1c1; /* Leather color */
+    background-color: rgb(228, 240, 96); /* Leather color */
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     max-width: 80%; /* Adjust the maximum width as needed */
@@ -36,7 +36,7 @@ html{
     color: #250101;
   }
   body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:  #c1ae79;
     background-image: url(Background\ Leather\ 2.jpg)
   }
@@ -95,16 +95,20 @@ html{
       width: 95%;
     }
   }.starting
-    {
-      display: flex;
-      background-color:rgba(244, 228, 182, 0.821); 
-    }
+  {
+    display: flex;
+    background-color:rgba(55, 42, 3, 0.821); 
+  }
+  .starting .companyname a h2 {
+    color: white!important;
+  }
     .headercolor
     {
       padding-left: 210px;
-      color: black;
+      color:white;
       text-align: center;
       padding-bottom: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .logo
     {
@@ -117,22 +121,29 @@ html{
       background-color: burlywood
     }
     .starting1
-    {
-      display: flex;
-      background-color:rgb(219, 215, 215);
-      text-align: center;
-      
-    }
+  {
+    display: flex;
+    background-color:rgb(219, 215, 215);
+    text-align: center;
+    
+  }
       .contents1
       {
         flex: 53.33%;
         color:black;
         text-align: center;
+        
       }
       .background {
         position: relative;
         text-align: center;
         color: white;
+      }
+      .starting1 .contents1 a h4 {
+        color: black !important;
+      }
+      .starting1 .dropbtn h4{
+        color: black !important;
       }
       
       /* Bottom left text */
@@ -177,37 +188,61 @@ html{
         position: relative;
         bottom:50px
       }
+      .heading{
+        position: absolute;
+        left: 690px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkblue
+      }
       .row {
         display: flex;
         position: absolute;
-        top: 195px;
+        top: 205px;
+        left:400px
       }
       .column {
-        padding-left:15px;
+        padding-left:65px;
         flex: 13.33%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
       }
-      .row2 {
-          display: flex;
-          position: absolute;
-          top: 715px;
-        }
-        .column2 {
-          padding-left:15px;
-          flex: 13.33%;
-        }
       .categories
       {
         position: absolute;
         padding-left: 20px;
       }
+      .name1
+      {
+        color: darkblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .name2
+      {
+        color: darkblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .founder{
+        position: absolute;
+        left: 50px;
+        top: 600px;
+      }
+      .founder-heading
+      {
+        color: darkblue
+      }
+      .founder-desc
+      {
+        color:black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+      }
       a:link{
-        color: black;
+        color: white;
       }
       a:visited{
-          color: black;
+        color: white;
       }
       a:active{
-        color: black;
+        color: white;
     }
     a:hover {
       color: black;
