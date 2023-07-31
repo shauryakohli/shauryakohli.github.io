@@ -276,6 +276,10 @@ button:hover {
   p {
     font-size: 13px;
   }
+  .container .row .column .overlay img[src$="KLS Sheep.jpg"] {
+    height: 180px; /* Adjust the height as needed */
+    width: 180px;
+  }
 }
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */

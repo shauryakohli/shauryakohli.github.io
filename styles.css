@@ -227,6 +227,26 @@ a:hover {
   .upper-bar {
     display: block;
   }
+  h1 {
+    font-size: 22px;
+  }
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 15px;
+  }
+
+  /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  .categories .row .column img[src$="KLS Sheep.jpg"] {
+    height: 180px; /* Adjust the height as needed */
+    width: 180px;
+  }
 }
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
