@@ -59,11 +59,20 @@
       <p><b>Address: 46/4771 B, Hardhian Singh Road, Karol Bagh, Delhi - 110005</b></p>
       <p><b>Contact No: 9811023242, 9953215234</b></p>
       <p><b>Email: kohli.leather.store@gmail.com</b></p>
-      <p><b>Working Hours:10am-6pm</b></p>
+      <p><b>Working Hours:10am-6pm(Mon-Sat)</b></p>
     </div>
   </div>
       <div class="background">
-         <input type="image" alt="submit" src="KLS Cut Plates.jpg" width=100px height=850px>
+         <input type="image" alt="submit" src="KLS Cut Plates.jpg" width=100px height=850px loading="lazy" class="fade-in">
+         <script>
+          const images = document.querySelectorAll('.fade-in');
+        
+          images.forEach(image => {
+            image.addEventListener('load', function() {
+              image.classList.add('loaded');
+            });
+          });
+        </script>
            <div class="bold"><h1><b>GENUINE LEATHER FOR EVERY UTILITY</b></h1></div>
       </div>
  </div>
@@ -89,9 +98,8 @@
          <a href="sheep.html"><h3>Sheep Articles</h3></a>
         </div>
   </div>
-  
 </div> 
-</div>     
+</div>   
 <script src="contact.js"></script>
 <script src="dropdown.js"></script>       
 </body>

@@ -194,7 +194,7 @@ html{
         position: absolute;
         left: 690px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: black
+        color: darkgreen;
       }
       .row {
         display: flex;
@@ -206,6 +206,10 @@ html{
         padding-left:65px;
         flex: 13.33%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      }
+      .name-d
+      {
+        color: darkred;
       }
       .categories
       {
@@ -229,7 +233,7 @@ html{
       }
       .founder-heading
       {
-        color: darkblue
+        color: darkgreen;
       }
       .founder-desc
       {
@@ -258,6 +262,35 @@ html{
   {
     color: black;
   }
+  .overlay {
+    position: relative;
+  }
+  .overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bea289;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  .overlay:hover:before {
+    opacity: 0.25;
+  }
+  @keyframes slide-down {
+    0% { transform: translateY(-100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  .headercolor {
+    animation: slide-down 1s;
+  }  
+
+  /* Apply slide-down effect on the text */
+
       
     
     

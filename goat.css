@@ -194,7 +194,8 @@ html{
     .content2
     {
       position: relative;
-      bottom:50px
+      bottom:50px;
+      color: darkgreen;
     }
     .row {
       display: flex;
@@ -205,6 +206,14 @@ html{
       padding-left:35px;
       flex: 23.33%;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title
+    {
+      color: darkblue;
+    }
+    .title2
+    {
+      color:darkred;
     }
     .categories
     {
@@ -232,7 +241,34 @@ html{
 {
   color: black;
 }
-    
+.overlay {
+  position: relative;
+}
+.overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #bea289;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.overlay:hover:before {
+  opacity: 0.25;
+}
+@keyframes slide-down {
+  0% { transform: translateY(-100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Apply slide-down effect on the text */
+.headercolor {
+  animation: slide-down 1s;
+}
     
   
   

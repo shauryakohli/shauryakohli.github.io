@@ -187,6 +187,7 @@ button:hover {
   {
     position: relative;
     bottom:50px;
+    color: green;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .row {
@@ -230,7 +231,22 @@ a:hover {
 {
   color: black;
 }
-    
+.fade-in {
+  opacity: 0;
+  transition: opacity 5.5s ease;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+}
+@keyframes slide-down {
+  0% { transform: translateY(-100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+/* Apply slide-down effect on the text */
+.headercolor{
+  animation: slide-down 1s;
+}
   
 
 
