@@ -2,6 +2,10 @@ html{
     padding: 0;
     margin: 0;
   }
+  @viewport {
+    width: device-width;
+    zoom: 1.0;
+  }
   .custom-modal {
     display: none;
     position: fixed;
@@ -268,92 +272,115 @@ html{
   .headercolor {
     animation: slide-down 1s;
   }  
+   /* Adjust the styles for smaller screens here */
   @media screen and (max-width: 767px) {
     body {
       font-size: 14px;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
     }
     
-    /* Adjust the styles for smaller screens here */
     .starting {
-      flex-direction: column;
-      align-items: center;
+      display: block;
+      text-align: center;
       padding: 10px;
     }
-    
+  
     .companyname a h2 {
-      font-size: 20px;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-    
+  
     .headercolor {
       padding-left: 0;
       text-align: center;
       padding-bottom: 10px;
     }
-    
+  
     .upper-bar {
+      background-color: burlywood;
       padding: 10px;
     }
-    
+  
     .starting1 {
-      flex-wrap: wrap;
-      justify-content: center;
+      display: block;
+      text-align: center;
+      padding: 10px;
     }
-    
+  
     .contents1 {
-      flex: 100%;
-      padding: 5px;
+      display: block;
+      color: black;
+      text-align: center;
+      margin: 5px;
     }
-    
-    .starting1 .contents1 a h4,
-    .starting1 .dropbtn h4 {
-      font-size: 14px;
-    }
-    
+  
     .bold {
       font-size: 18px;
     }
-    
-    .normal,
-    .normal1 {
+  
+    .normal, .normal1 {
       font-size: 12px;
     }
-    
+  
+    .background {
+      text-align: center;
+    }
+  
     .background h1 {
-      font-size: 24px;
+      font-size: 36px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
-    
+  
     .content2 h1 {
-      font-size: 24px;
+      font-size: 36px;
     }
-    
+  
+    .founder {
+      padding: 10px;
+      text-align: center;
+    }
+  
     .founder-heading h3 {
-      font-size: 18px;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-    
+  
     .founder-desc {
-      font-size: 14px;
+      font-size: 16px;
+      margin-bottom: 20px;
     }
-    
+  
     .row {
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       padding: 10px;
     }
-    
+  
     .column {
-      padding: 5px;
+      flex: 0 0 45%;
+      margin: 10px;
+      text-align: center;
     }
-    
-    .name1,
-    .name2 {
-      font-size: 16px;
+  
+    .name-d {
+      color: darkred;
+      margin-bottom: 5px;
     }
-    
-    .new {
-      padding-left: 0;
-      top: 900px;
+  
+    .name1, .name2 {
+      font-size: 18px;
+      margin-bottom: 5px;
     }
-  }
+  
+    .Team {
+      padding-bottom: 30px;
+    }
+  }  
   /* Apply slide-down effect on the text */
 
       
