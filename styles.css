@@ -219,15 +219,25 @@ a:hover {
 .headercolor{
   animation: slide-down 1s;
 }
-/* General styles for all screen sizes */
-
-
-/* Add your other common styles here */
-
-/* Responsive styles for screens with a width of 768px or less (Tablet portrait) */
 @media screen and (max-width: 768px) {
+  /* Ensure header displays properly on mobile devices */
+  .starting {
+    display: block;
+  }
+  .upper-bar {
+    display: block;
+  }
+
+  .categories .row .column img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Responsive styles for screens with a width of 576px or less (Mobile devices) */
+@media screen and (max-width: 576px) {
   /* Adjust font size for heading elements */
-  h2 {
+  h1 {
     font-size: 20px;
   }
   
@@ -241,20 +251,16 @@ a:hover {
   p {
     font-size: 13px;
   }
-  
-  /* Adjust top bar (class starting) height to fully display on tablet portrait */
-  .starting {
-    display: flex;
-    background-color: rgba(55, 42, 3, 0.821);
-    height: 100px;
-    /* Add any other adjustments for the top bar on tablet portrait here */
+  .categories .row .column img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
-/* Responsive styles for screens with a width of 576px or less (Mobile devices) */
-@media screen and (max-width: 576px) {
+/* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
+@media screen and (max-width: 450px) {
   /* Adjust font size for heading elements */
-  h2 {
+  h1 {
     font-size: 18px;
   }
   
@@ -268,45 +274,21 @@ a:hover {
   p {
     font-size: 12px;
   }
-  
-  /* Adjust top bar (class starting) height to fully display on mobile */
-  .starting {
-    display: flex;
-    background-color: rgba(55, 42, 3, 0.821);
-    height: 120px;
-    /* Add any other adjustments for the top bar on mobile here */
-  }
-}
-
-/* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
-@media screen and (max-width: 450px) {
-  /* Adjust font size for heading elements */
-  h2 {
-    font-size: 16px;
-  }
-  
-  /* Adjust image sizes */
-  img {
+  .categories .row .column img {
     max-width: 100%;
     height: auto;
   }
-  
-  /* Adjust font size for paragraphs */
-  p {
-    font-size: 11px;
-  }
-  
-  /* Adjust top bar (class starting) height to fully display on small mobile */
-  .starting {
-    display: flex;
-    background-color: rgba(55, 42, 3, 0.821);
-    height: 140px;
-    /* Add any other adjustments for the top bar on small mobile here */
-  }
 }
 
-/* Adjust KLS Sheep.jpg image size */
-.column img {
-  max-width: 100%;
-  height: auto;
-}
+
+
+
+
+
+
+  
+
+
+
+ 
+ 
