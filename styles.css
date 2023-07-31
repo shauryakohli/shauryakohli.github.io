@@ -68,34 +68,6 @@ button:hover {
 
 
 /* Additional styles to make the pop-up more responsive */
-@media screen and (max-width: 1000px) {
-  .modal-content {
-    max-width: 90%;
-    width: 90%;
-    font-family: 16px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .modal-content {
-    max-width: 95%;
-    width: 95%;
-    font-size: 14px;
-  }
-  img {
-    max-width: 80%; /* You can adjust the percentage value to your preference */
-}
-}
-@media screen and (max-width: 450px) {
-  .modal-content {
-    max-width: 95%;
-    width: 95%;
-    font-size: 12px;
-    img {
-      max-width: 70%; /* You can adjust the percentage value to your preference */
-  }
-  }
-}
 
 /* Additional styles to make the pop-up more responsive */
 .starting
@@ -247,6 +219,65 @@ a:hover {
 .headercolor{
   animation: slide-down 1s;
 }
+@media screen and (max-width: 768px) {
+  /* Adjust font size for heading elements */
+  h1 {
+    font-size: 22px;
+  }
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 80%;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for screens with a width of 576px or less (Mobile devices) */
+@media screen and (max-width: 576px) {
+  /* Adjust font size for heading elements */
+  h1 {
+    font-size: 20px;
+  }
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 70%;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 13px;
+  }
+}
+
+/* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
+@media screen and (max-width: 450px) {
+  /* Adjust font size for heading elements */
+  h1 {
+    font-size: 18px;
+  }
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 60%;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
   
 
 
