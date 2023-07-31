@@ -219,14 +219,9 @@ a:hover {
 .headercolor{
   animation: slide-down 1s;
 }
-@media screen and (max-width: 768px) {
-  /* Ensure header displays properly on mobile devices */
-  .upper-bar {
-    display: block;
-  }
-}
-
 /* General styles for all screen sizes */
+
+
 /* Add your other common styles here */
 
 /* Responsive styles for screens with a width of 768px or less (Tablet portrait) */
@@ -245,6 +240,14 @@ a:hover {
   /* Adjust font size for paragraphs */
   p {
     font-size: 13px;
+  }
+  
+  /* Adjust top bar (class starting) height to fully display on tablet portrait */
+  .starting {
+    display: flex;
+    background-color: rgba(55, 42, 3, 0.821);
+    height: 100px;
+    /* Add any other adjustments for the top bar on tablet portrait here */
   }
 }
 
@@ -270,7 +273,7 @@ a:hover {
   .starting {
     display: flex;
     background-color: rgba(55, 42, 3, 0.821);
-    height: 80px;
+    height: 120px;
     /* Add any other adjustments for the top bar on mobile here */
   }
 }
@@ -297,7 +300,13 @@ a:hover {
   .starting {
     display: flex;
     background-color: rgba(55, 42, 3, 0.821);
-    height: 100px;
+    height: 140px;
     /* Add any other adjustments for the top bar on small mobile here */
   }
+}
+
+/* Adjust KLS Sheep.jpg image size */
+.column img {
+  max-width: 100%;
+  height: auto;
 }
