@@ -239,18 +239,33 @@ html{
 }
 
 /* Apply slide-down effect on the text */
-.headercolor {
-  animation: slide-down 1s;
+@media screen and (max-width: 768px) {
+  /* Ensure header displays properly on mobile devices */
+  .starting {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Ensure header displays properly on mobile devices */
+  .upper-bar {
+    display: block;
+  }
 }
 @media screen and (max-width: 768px) {
   /* Adjust font size for heading elements */
   h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   
-  /* Adjust image sizes in the columns */
-  .column img {
-    max-width: 70%;
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 13px;
   }
 }
 
@@ -258,12 +273,18 @@ html{
 @media screen and (max-width: 576px) {
   /* Adjust font size for heading elements */
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   
-  /* Adjust image sizes in the columns */
-  .column img {
-    max-width: 60%;
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 12px;
   }
 }
 
@@ -271,12 +292,18 @@ html{
 @media screen and (max-width: 450px) {
   /* Adjust font size for heading elements */
   h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   
-  /* Adjust image sizes in the columns */
-  .column img {
-    max-width: 50%;
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 11px;
   }
 }
     

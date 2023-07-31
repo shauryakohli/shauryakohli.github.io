@@ -220,21 +220,18 @@ a:hover {
   animation: slide-down 1s;
 }
 @media screen and (max-width: 768px) {
-  /* Adjust font size for heading elements */
-  h1 {
-    font-size: 22px;
-  }
-  
-  /* Adjust image sizes */
-  img {
-    max-width: 80%;
-  }
-  
-  /* Adjust font size for paragraphs */
-  p {
-    font-size: 14px;
+  /* Ensure header displays properly on mobile devices */
+  .starting {
+    display: block;
   }
 }
+@media screen and (max-width: 768px) {
+  /* Ensure header displays properly on mobile devices */
+  .upper-bar {
+    display: block;
+  }
+}
+
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
 @media screen and (max-width: 576px) {
@@ -245,7 +242,8 @@ a:hover {
   
   /* Adjust image sizes */
   img {
-    max-width: 70%;
+    max-width: 100%;
+    height: auto;
   }
   
   /* Adjust font size for paragraphs */
@@ -263,7 +261,8 @@ a:hover {
   
   /* Adjust image sizes */
   img {
-    max-width: 60%;
+    max-width: 100%;
+    height: auto;
   }
   
   /* Adjust font size for paragraphs */
