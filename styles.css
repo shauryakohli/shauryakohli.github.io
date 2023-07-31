@@ -227,10 +227,6 @@ a:hover {
   .upper-bar {
     display: block;
   }
-  .categories .row .column img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
@@ -239,16 +235,22 @@ a:hover {
   h1 {
     font-size: 20px;
   }
-
-  /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  .categories .row .column img {
-    max-width: 80%;
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
     height: auto;
   }
-
+  
   /* Adjust font size for paragraphs */
   p {
     font-size: 13px;
+  }
+
+  /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  .categories .row .column img[src$="KLS Sheep.jpg"] {
+    height: 180px; /* Adjust the height as needed */
+    width: auto;
   }
 }
 
@@ -258,16 +260,22 @@ a:hover {
   h1 {
     font-size: 18px;
   }
-
-  /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  .categories .row .column img {
-    max-width: 60%;
+  
+  /* Adjust image sizes */
+  img {
+    max-width: 100%;
     height: auto;
   }
-
+  
   /* Adjust font size for paragraphs */
   p {
     font-size: 12px;
+  }
+
+  /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  .categories .row .column img[src$="KLS Sheep.jpg"] {
+    height: 150px; /* Adjust the height as needed */
+    width: auto;
   }
 }
 
