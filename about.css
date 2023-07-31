@@ -2,10 +2,6 @@ html{
     padding: 0;
     margin: 0;
   }
-  @viewport {
-    width: device-width;
-    zoom: 1.0;
-  }
   .custom-modal {
     display: none;
     position: fixed;
@@ -273,119 +269,169 @@ html{
     animation: slide-down 1s;
   }  
    /* Adjust the styles for smaller screens here */
-  @media screen and (max-width: 767px) {
-    body {
-      font-size: 14px;
-      line-height: 1.6;
-      padding: 0;
-      margin: 0;
+   @media screen and (max-width: 768px) {
+    /* Adjust header font size for smaller screens */
+    .headercolor h4 {
+      font-size: 18px;
     }
     
-    .starting {
-      display: block;
-      text-align: center;
-      padding: 10px;
+    /* Adjust navigation font size for smaller screens */
+    .starting1 .contents1 h4 {
+      font-size: 16px;
     }
   
-    .companyname a h2 {
+    /* Adjust founder heading font size for smaller screens */
+    .founder-heading {
+      font-size: 22px;
+    }
+  
+    /* Adjust founder description font size for smaller screens */
+    .founder-desc {
+      font-size: 14px;
+    }
+  
+    /* Adjust team member name font size for smaller screens */
+    .name1,
+    .name2 {
+      font-size: 20px;
+    }
+    
+    /* Adjust team member designation font size for smaller screens */
+    .name-d {
+      font-size: 14px;
+    }
+    
+    /* Adjust gallery heading font size for smaller screens */
+    .heading h3 {
+      font-size: 20px;
+    }
+    
+    /* Adjust gallery image size for smaller screens */
+    .column img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust founder image size for smaller screens */
+    .Team .overlay img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust gallery text font size for smaller screens */
+    .content2 h1 {
       font-size: 24px;
-      margin-bottom: 10px;
+    }
+  }
+  
+  /* Additional responsive styles for even smaller devices */
+  @media screen and (max-width: 576px) {
+    /* Adjust header font size for even smaller screens */
+    .headercolor h4 {
+      font-size: 16px;
+    }
+    
+    /* Adjust navigation font size for even smaller screens */
+    .starting1 .contents1 h4 {
+      font-size: 14px;
     }
   
-    .headercolor {
-      padding-left: 0;
-      text-align: center;
-      padding-bottom: 10px;
-    }
-  
-    .upper-bar {
-      background-color: burlywood;
-      padding: 10px;
-    }
-  
-    .starting1 {
-      display: block;
-      text-align: center;
-      padding: 10px;
-    }
-  
-    .contents1 {
-      display: block;
-      color: black;
-      text-align: center;
-      margin: 5px;
-    }
-  
-    .bold {
+    /* Adjust founder heading font size for even smaller screens */
+    .founder-heading {
       font-size: 18px;
     }
   
-    .normal, .normal1 {
+    /* Adjust founder description font size for even smaller screens */
+    .founder-desc {
       font-size: 12px;
     }
   
-    .background {
-      text-align: center;
-    }
-  
-    .background h1 {
-      font-size: 36px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-  
-    .content2 h1 {
-      font-size: 36px;
-    }
-  
-    .founder {
-      padding: 10px;
-      text-align: center;
-    }
-  
-    .founder-heading h3 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-  
-    .founder-desc {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-  
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      padding: 10px;
-    }
-  
-    .column {
-      flex: 0 0 45%;
-      margin: 10px;
-      text-align: center;
-    }
-  
-    .name-d {
-      color: darkred;
-      margin-bottom: 5px;
-    }
-  
-    .name1, .name2 {
+    /* Adjust team member name font size for even smaller screens */
+    .name1,
+    .name2 {
       font-size: 18px;
-      margin-bottom: 5px;
+    }
+    
+    /* Adjust team member designation font size for even smaller screens */
+    .name-d {
+      font-size: 12px;
+    }
+    
+    /* Adjust gallery heading font size for even smaller screens */
+    .heading h3 {
+      font-size: 18px;
+    }
+    
+    /* Adjust gallery image size for even smaller screens */
+    .column img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust founder image size for even smaller screens */
+    .Team .overlay img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust gallery text font size for even smaller screens */
+    .content2 h1 {
+      font-size: 22px;
+    }
+  }
+  
+  /* Additional responsive styles for the smallest devices */
+  @media screen and (max-width: 450px) {
+    /* Adjust header font size for the smallest screens */
+    .headercolor h4 {
+      font-size: 14px;
+    }
+    
+    /* Adjust navigation font size for the smallest screens */
+    .starting1 .contents1 h4 {
+      font-size: 12px;
     }
   
-    .Team {
-      padding-bottom: 30px;
+    /* Adjust founder heading font size for the smallest screens */
+    .founder-heading {
+      font-size: 16px;
     }
-  }  
-  /* Apply slide-down effect on the text */
-
-      
+  
+    /* Adjust founder description font size for the smallest screens */
+    .founder-desc {
+      font-size: 10px;
+    }
+  
+    /* Adjust team member name font size for the smallest screens */
+    .name1,
+    .name2 {
+      font-size: 16px;
+    }
     
+    /* Adjust team member designation font size for the smallest screens */
+    .name-d {
+      font-size: 10px;
+    }
     
+    /* Adjust gallery heading font size for the smallest screens */
+    .heading h3 {
+      font-size: 16px;
+    }
     
-     
-     
+    /* Adjust gallery image size for the smallest screens */
+    .column img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust founder image size for the smallest screens */
+    .Team .overlay img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust gallery text font size for the smallest screens */
+    .content2 h1 {
+      font-size: 20px;
+    }
+  }
