@@ -74,27 +74,7 @@ html{
       font-family: 16px;
     }
   }
-  
-  @media screen and (max-width: 576px) {
-    .modal-content {
-      max-width: 95%;
-      width: 95%;
-      font-size: 14px;
-    }
-    img {
-      max-width: 80%; /* You can adjust the percentage value to your preference */
-  }
-  }
-  @media screen and (max-width: 450px) {
-    .modal-content {
-      max-width: 95%;
-      width: 95%;
-      font-size: 12px;
-      img {
-        max-width: 70%; /* You can adjust the percentage value to your preference */
-    }
-    }
-  }.starting
+  .starting
   {
     display: flex;
     background-color:rgba(55, 42, 3, 0.821); 
@@ -288,7 +268,92 @@ html{
   .headercolor {
     animation: slide-down 1s;
   }  
-
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    
+    /* Adjust the styles for smaller screens here */
+    .starting {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .companyname a h2 {
+      font-size: 20px;
+    }
+    
+    .headercolor {
+      padding-left: 0;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    
+    .upper-bar {
+      padding: 10px;
+    }
+    
+    .starting1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .contents1 {
+      flex: 100%;
+      padding: 5px;
+    }
+    
+    .starting1 .contents1 a h4,
+    .starting1 .dropbtn h4 {
+      font-size: 14px;
+    }
+    
+    .bold {
+      font-size: 18px;
+    }
+    
+    .normal,
+    .normal1 {
+      font-size: 12px;
+    }
+    
+    .background h1 {
+      font-size: 24px;
+    }
+    
+    .content2 h1 {
+      font-size: 24px;
+    }
+    
+    .founder-heading h3 {
+      font-size: 18px;
+    }
+    
+    .founder-desc {
+      font-size: 14px;
+    }
+    
+    .row {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .column {
+      padding: 5px;
+    }
+    
+    .name1,
+    .name2 {
+      font-size: 16px;
+    }
+    
+    .new {
+      padding-left: 0;
+      top: 900px;
+    }
+  }
   /* Apply slide-down effect on the text */
 
       
