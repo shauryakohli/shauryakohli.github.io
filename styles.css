@@ -227,7 +227,6 @@ a:hover {
   .upper-bar {
     display: block;
   }
-
   .categories .row .column img {
     max-width: 100%;
     height: auto;
@@ -240,20 +239,16 @@ a:hover {
   h1 {
     font-size: 20px;
   }
-  
-  /* Adjust image sizes */
-  img {
-    max-width: 100%;
+
+  /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  .categories .row .column img {
+    max-width: 80%;
     height: auto;
   }
-  
+
   /* Adjust font size for paragraphs */
   p {
     font-size: 13px;
-  }
-  .categories .row .column img {
-    max-width: 100%;
-    height: auto;
   }
 }
 
@@ -263,20 +258,16 @@ a:hover {
   h1 {
     font-size: 18px;
   }
-  
-  /* Adjust image sizes */
-  img {
-    max-width: 100%;
+
+  /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  .categories .row .column img {
+    max-width: 60%;
     height: auto;
   }
-  
+
   /* Adjust font size for paragraphs */
   p {
     font-size: 12px;
-  }
-  .categories .row .column img {
-    max-width: 100%;
-    height: auto;
   }
 }
 
