@@ -292,6 +292,14 @@ button:hover {
   p {
     font-size: 13px;
   }
+  .container .row .column .overlay img[src$="KLS Buff Terrycota.jpg"] {
+    height: 420px; /* Adjust the height as needed */
+    width: 280px;
+  }
+  .container .row2 .column2 .overlay img[src$="KLS Harness Prints.jpg"] {
+    height: 420px; /* Adjust the height as needed */
+    width: 280px;
+  }
 }
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
@@ -311,6 +319,14 @@ button:hover {
   p {
     font-size: 12px;
   }
+  .container .row .column .overlay img[src$="KLS Buff Terrycota.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
+  }
+  .container .row2 .column2 .overlay img[src$="KLS Harness Prints.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
+  }
 }
 
 /* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
@@ -329,6 +345,14 @@ button:hover {
   /* Adjust font size for paragraphs */
   p {
     font-size: 11px;
+  }
+  .container .row .column .overlay img[src$="KLS Buff Terrycota.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
+  }
+  .container .row2 .column2 .overlay img[src$="KLS Harness Prints.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
   }
 }
 

@@ -270,6 +270,10 @@ html{
   p {
     font-size: 13px;
   }
+  .container .row .column .overlay img[src$="KLS Goat Seude.jpg"] {
+    height: 420px; /* Adjust the height as needed */
+    width: 280px;
+  }
 }
 
 /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
@@ -289,6 +293,10 @@ html{
   p {
     font-size: 12px;
   }
+  .container .row .column .overlay img[src$="KLS Goat Seude.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
+  }
 }
 
 /* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
@@ -307,6 +315,10 @@ html{
   /* Adjust font size for paragraphs */
   p {
     font-size: 11px;
+  }
+  .container .row .column .overlay img[src$="KLS Goat Seude.jpg"] {
+    height: 230px; /* Adjust the height as needed */
+    width: 160px;
   }
 }
     
