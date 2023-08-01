@@ -303,13 +303,14 @@ html{
       font-size: 13px;
     }
     .container {
+      position: relative;
       padding-top: 180px; /* Adjust the value as needed */
     }
   }
     @media screen and (max-width: 576px) {
       /* Adjust font size for heading elements */
       h1 {
-        font-size: 20px;
+        font-size: 18px;
       }
       
       /* Adjust image sizes */
@@ -320,16 +321,17 @@ html{
       
       /* Adjust font size for paragraphs */
       p {
-        font-size: 13px;
+        font-size: 12px;
       }
       .container {
+        position: relative;
         padding-top: 180px; /* Adjust the value as needed */
       }
     }
       @media screen and (max-width: 450px) {
         /* Adjust font size for heading elements */
         h1 {
-          font-size: 20px;
+          font-size: 16px;
         }
         
         /* Adjust image sizes */
@@ -340,9 +342,10 @@ html{
         
         /* Adjust font size for paragraphs */
         p {
-          font-size: 13px;
+          font-size: 11px;
         }
         .container {
+          position: relative;
           padding-top: 180px; /* Adjust the value as needed */
         }
       }
