@@ -303,7 +303,7 @@ html{
       font-size: 13px;
     }
     .container {
-      padding-top: 80px; /* Adjust the value as needed */
+      padding-top: 180px; /* Adjust the value as needed */
     }
   }
     @media screen and (max-width: 576px) {
@@ -323,7 +323,7 @@ html{
         font-size: 13px;
       }
       .container {
-        padding-top: 80px; /* Adjust the value as needed */
+        padding-top: 180px; /* Adjust the value as needed */
       }
     }
       @media screen and (max-width: 450px) {
@@ -343,6 +343,6 @@ html{
           font-size: 13px;
         }
         .container {
-          padding-top: 80px; /* Adjust the value as needed */
+          padding-top: 180px; /* Adjust the value as needed */
         }
       }
