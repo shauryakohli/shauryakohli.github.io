@@ -284,9 +284,30 @@ html{
     p {
       font-size: 15px;
     }
+    .Team {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Adjust the size of team member images */
+    .Team .column img {
+      max-width: 80%; /* You can adjust the percentage value to your preference */
+      height: auto;
+    }
+  
+    /* Adjust the font size for team member names */
+    .Team .name1 h3,
+    .Team .name2 h3 {
+      font-size: 18px;
+    }
+  
+    /* Adjust the font size for team member designations */
+    .Team .name-d h5 {
+      font-size: 14px;
+    }
+  }
   
     /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  }
   
   /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
   @media screen and (max-width: 576px) {
@@ -305,9 +326,25 @@ html{
     p {
       font-size: 13px;
     }
+    .Team .column img {
+      max-width: 70%; /* You can adjust the percentage value to your preference */
+      height: auto;
+    }
+  
+    /* Adjust the font size for team member names */
+    .Team .name1 h3,
+    .Team .name2 h3 {
+      font-size: 16px;
+    }
+  
+    /* Adjust the font size for team member designations */
+    .Team .name-d h5 {
+      font-size: 12px;
+    }
+  }
   
     /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  }
+  
   
   /* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
   @media screen and (max-width: 450px) {
@@ -325,6 +362,21 @@ html{
     /* Adjust font size for paragraphs */
     p {
       font-size: 12px;
+    }
+    .Team .column img {
+      max-width: 60%; /* You can adjust the percentage value to your preference */
+      height: auto;
+    }
+  
+    /* Adjust the font size for team member names */
+    .Team .name1 h3,
+    .Team .name2 h3 {
+      font-size: 14px;
+    }
+  
+    /* Adjust the font size for team member designations */
+    .Team .name-d h5 {
+      font-size: 10px;
     }
   
     /* Adjust KLS Sheep.jpg image size further for smaller devices */
