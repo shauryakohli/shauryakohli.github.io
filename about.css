@@ -302,10 +302,32 @@ html{
     p {
       font-size: 13px;
     }
-    .container {
-      position: relative;
-      padding-top: 180px; /* Adjust the value as needed */
-    }
+    .name1
+      {
+        position: absolute;
+        top: 270px;
+      }
+      .contact1
+      {
+        position: absolute;
+        top: 270px;
+        left:80px;
+      }
+      .name2
+      {
+        position: absolute;
+        top: 300px;
+      }
+      .contact2
+      {
+        position: absolute;
+        top: 310px;
+        left:80px;
+      }
+      .founder{
+        position: absolute;
+        top: 270px;
+      }
   }
     @media screen and (max-width: 576px) {
       /* Adjust font size for heading elements */
@@ -323,10 +345,33 @@ html{
       p {
         font-size: 12px;
       }
-      .container {
-        position: relative;
-        padding-top: 180px; /* Adjust the value as needed */
+      .name1
+      {
+        position: absolute;
+        top: 270px;
       }
+      .contact1
+      {
+        position: absolute;
+        top: 270px;
+        left:80px;
+      }
+      .name2
+      {
+        position: absolute;
+        top: 300px;
+      }
+      .contact2
+      {
+        position: absolute;
+        top: 310px;
+        left:80px;
+      }
+      .founder{
+        position: absolute;
+        top: 270px;
+      }
+
     }
       @media screen and (max-width: 450px) {
         /* Adjust font size for heading elements */
@@ -344,8 +389,35 @@ html{
         p {
           font-size: 11px;
         }
-        .container {
-          position: relative;
-          padding-top: 180px; /* Adjust the value as needed */
+        .founder{
+          position: absolute;
+          left: 50px;
+          top: 270px;
         }
+        .name1
+      {
+        position: absolute;
+        top: 270px;
+      }
+      .contact1
+      {
+        position: absolute;
+        top: 270px;
+        left:80px;
+      }
+      .name2
+      {
+        position: absolute;
+        top: 300px;
+      }
+      .contact2
+      {
+        position: absolute;
+        top: 310px;
+        left:80px;
+      }
+      .founder{
+        position: absolute;
+        top: 270px;
+      }
       }
