@@ -67,13 +67,6 @@ html{
   }
   
   /* Additional styles to make the pop-up more responsive */
-  @media screen and (max-width: 1000px) {
-    .modal-content {
-      max-width: 90%;
-      width: 90%;
-      font-family: 16px;
-    }
-  }
   .starting
   {
     display: flex;
@@ -270,168 +263,70 @@ html{
   }  
    /* Adjust the styles for smaller screens here */
    @media screen and (max-width: 768px) {
-    /* Adjust header font size for smaller screens */
-    .headercolor h4 {
-      font-size: 18px;
+    /* Ensure header displays properly on mobile devices */
+    .starting {
+      display: block;
     }
-    
-    /* Adjust navigation font size for smaller screens */
-    .starting1 .contents1 h4 {
-      font-size: 16px;
+    .upper-bar {
+      display: block;
     }
-  
-    /* Adjust founder heading font size for smaller screens */
-    .founder-heading {
+    h1 {
       font-size: 22px;
     }
-  
-    /* Adjust founder description font size for smaller screens */
-    .founder-desc {
-      font-size: 14px;
-    }
-  
-    /* Adjust team member name font size for smaller screens */
-    .name1,
-    .name2 {
-      font-size: 20px;
-    }
     
-    /* Adjust team member designation font size for smaller screens */
-    .name-d {
-      font-size: 14px;
-    }
-    
-    /* Adjust gallery heading font size for smaller screens */
-    .heading h3 {
-      font-size: 20px;
-    }
-    
-    /* Adjust gallery image size for smaller screens */
-    .column img {
+    /* Adjust image sizes */
+    img {
       max-width: 100%;
       height: auto;
     }
     
-    /* Adjust founder image size for smaller screens */
-    .Team .overlay img {
-      max-width: 100%;
-      height: auto;
+    /* Adjust font size for paragraphs */
+    p {
+      font-size: 15px;
     }
-    
-    /* Adjust gallery text font size for smaller screens */
-    .content2 h1 {
-      font-size: 24px;
-    }
+  
+    /* Adjust KLS Sheep.jpg image size further for smaller devices */
   }
   
-  /* Additional responsive styles for even smaller devices */
+  /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
   @media screen and (max-width: 576px) {
-    /* Adjust header font size for even smaller screens */
-    .headercolor h4 {
-      font-size: 16px;
-    }
-    
-    /* Adjust navigation font size for even smaller screens */
-    .starting1 .contents1 h4 {
-      font-size: 14px;
-    }
-  
-    /* Adjust founder heading font size for even smaller screens */
-    .founder-heading {
-      font-size: 18px;
-    }
-  
-    /* Adjust founder description font size for even smaller screens */
-    .founder-desc {
-      font-size: 12px;
-    }
-  
-    /* Adjust team member name font size for even smaller screens */
-    .name1,
-    .name2 {
-      font-size: 18px;
-    }
-    
-    /* Adjust team member designation font size for even smaller screens */
-    .name-d {
-      font-size: 12px;
-    }
-    
-    /* Adjust gallery heading font size for even smaller screens */
-    .heading h3 {
-      font-size: 18px;
-    }
-    
-    /* Adjust gallery image size for even smaller screens */
-    .column img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust founder image size for even smaller screens */
-    .Team .overlay img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust gallery text font size for even smaller screens */
-    .content2 h1 {
-      font-size: 22px;
-    }
-  }
-  
-  /* Additional responsive styles for the smallest devices */
-  @media screen and (max-width: 450px) {
-    /* Adjust header font size for the smallest screens */
-    .headercolor h4 {
-      font-size: 14px;
-    }
-    
-    /* Adjust navigation font size for the smallest screens */
-    .starting1 .contents1 h4 {
-      font-size: 12px;
-    }
-  
-    /* Adjust founder heading font size for the smallest screens */
-    .founder-heading {
-      font-size: 16px;
-    }
-  
-    /* Adjust founder description font size for the smallest screens */
-    .founder-desc {
-      font-size: 10px;
-    }
-  
-    /* Adjust team member name font size for the smallest screens */
-    .name1,
-    .name2 {
-      font-size: 16px;
-    }
-    
-    /* Adjust team member designation font size for the smallest screens */
-    .name-d {
-      font-size: 10px;
-    }
-    
-    /* Adjust gallery heading font size for the smallest screens */
-    .heading h3 {
-      font-size: 16px;
-    }
-    
-    /* Adjust gallery image size for the smallest screens */
-    .column img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust founder image size for the smallest screens */
-    .Team .overlay img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust gallery text font size for the smallest screens */
-    .content2 h1 {
+    /* Adjust font size for heading elements */
+    h1 {
       font-size: 20px;
     }
+    
+    /* Adjust image sizes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust font size for paragraphs */
+    p {
+      font-size: 13px;
+    }
+  
+    /* Adjust KLS Sheep.jpg image size further for smaller devices */
+  }
+  
+  /* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
+  @media screen and (max-width: 450px) {
+    /* Adjust font size for heading elements */
+    h1 {
+      font-size: 18px;
+    }
+    
+    /* Adjust image sizes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust font size for paragraphs */
+    p {
+      font-size: 12px;
+    }
+  
+    /* Adjust KLS Sheep.jpg image size further for smaller devices */
+
   }
