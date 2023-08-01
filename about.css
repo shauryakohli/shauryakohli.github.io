@@ -314,8 +314,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 350px;
-        left:80px;
+        top: 370px;
+        left:120px;
       }
       .name2
       {
@@ -325,12 +325,12 @@ html{
       .contact2
       {
         position: absolute;
-        top: 380px;
-        left:80px;
+        top: 385px;
+        left:120px;
       }
       .founder{
         position: absolute;
-        top: 420px;
+        top: 430px;
       }
   }
     @media screen and (max-width: 576px) {
@@ -361,8 +361,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 350px;
-        left:80px;
+        top: 370px;
+        left:120px;
       }
       .name2
       {
@@ -372,12 +372,12 @@ html{
       .contact2
       {
         position: absolute;
-        top: 380px;
-        left:80px;
+        top: 385px;
+        left:120px;
       }
       .founder{
         position: absolute;
-        top: 420px;
+        top: 430px;
       }
 
     }
@@ -409,8 +409,8 @@ html{
         .contact1
         {
           position: absolute;
-          top: 350px;
-          left:80px;
+          top: 370px;
+          left:120px;
         }
         .name2
         {
@@ -420,11 +420,11 @@ html{
         .contact2
         {
           position: absolute;
-          top: 380px;
-          left:80px;
+          top: 385px;
+          left:120px;
         }
         .founder{
           position: absolute;
-          top: 420px;
+          top: 430px;
         }
       }
