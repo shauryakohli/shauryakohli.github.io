@@ -237,6 +237,9 @@ html{
   0% { transform: translateY(-100%); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
 }
+.headercolor {
+  animation: slide-down 1s;
+}
 
 /* Apply slide-down effect on the text */
 @media screen and (max-width: 768px) {
