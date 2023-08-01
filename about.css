@@ -314,8 +314,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 370px;
-        left:270px;
+        top: 360px;
+        left:240px;
       }
       .name2
       {
@@ -325,8 +325,8 @@ html{
       .contact2
       {
         position: absolute;
-        top: 430px;
-        left:240px;
+        top: 400px;
+        left:200px;
       }
       .founder{
         position: absolute;
@@ -349,10 +349,10 @@ html{
       p {
         font-size: 12px;
       }
-      .headercolor{
+      .heading{
         position: absolute;
-        left: 5px;
-      }
+        top: 320px;
+    }
     .name1
       {
         position: absolute;
@@ -361,8 +361,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 370px;
-        left:270px;
+        top: 360px;
+        left:240px;
       }
       .name2
       {
@@ -372,8 +372,8 @@ html{
       .contact2
       {
         position: absolute;
-        top: 430px;
-        left:240px;
+        top: 400px;
+        left:200px;
       }
       .founder{
         position: absolute;
@@ -397,10 +397,10 @@ html{
         p {
           font-size: 11px;
         }
-        .headercolor{
+        .heading{
           position: absolute;
-          left: 5px;
-        }
+          top: 320px;
+      }
       .name1
         {
           position: absolute;
