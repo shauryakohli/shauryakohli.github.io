@@ -302,6 +302,14 @@ html{
     p {
       font-size: 13px;
     }
+    .headercolor{
+      position: absolute;
+      left: 5px;
+    }
+    #a1{
+      position: absolute;
+      left: 5px;
+    }
     .heading{
         position: absolute;
         top: 320px;
@@ -314,8 +322,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 390px;
-        left:200px;
+        top: 370px;
+        left:270px;
       }
       .name2
       {
@@ -325,8 +333,8 @@ html{
       .contact2
       {
         position: absolute;
-        top: 420px;
-        left:200px;
+        top: 430px;
+        left:240px;
       }
       .founder{
         position: absolute;
@@ -349,6 +357,14 @@ html{
       p {
         font-size: 12px;
       }
+      .headercolor{
+        position: absolute;
+        left: 5px;
+      }
+      #a1{
+        position: absolute;
+        left: 5px;
+      }
       .heading{
         position: absolute;
         top: 320px;
@@ -361,8 +377,8 @@ html{
       .contact1
       {
         position: absolute;
-        top: 390px;
-        left:200px;
+        top: 370px;
+        left:270px;
       }
       .name2
       {
@@ -372,8 +388,8 @@ html{
       .contact2
       {
         position: absolute;
-        top: 420px;
-        left:200px;
+        top: 430px;
+        left:240px;
       }
       .founder{
         position: absolute;
@@ -396,6 +412,14 @@ html{
         /* Adjust font size for paragraphs */
         p {
           font-size: 11px;
+        }
+        .headercolor{
+          position: absolute;
+          left: 5px;
+        }
+        #a1{
+          position: absolute;
+          left: 5px;
         }
         .heading{
           position: absolute;
