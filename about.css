@@ -302,14 +302,6 @@ html{
     p {
       font-size: 13px;
     }
-    .headercolor{
-      position: absolute;
-      left: 5px;
-    }
-    #a1{
-      position: absolute;
-      left: 5px;
-    }
     .heading{
         position: absolute;
         top: 320px;
@@ -361,14 +353,6 @@ html{
         position: absolute;
         left: 5px;
       }
-      #a1{
-        position: absolute;
-        left: 5px;
-      }
-      .heading{
-        position: absolute;
-        top: 320px;
-    }
     .name1
       {
         position: absolute;
@@ -417,14 +401,6 @@ html{
           position: absolute;
           left: 5px;
         }
-        #a1{
-          position: absolute;
-          left: 5px;
-        }
-        .heading{
-          position: absolute;
-          top: 320px;
-      }
       .name1
         {
           position: absolute;
@@ -433,8 +409,8 @@ html{
         .contact1
         {
           position: absolute;
-          top: 390px;
-          left:200px;
+          top: 370px;
+          left:270px;
         }
         .name2
         {
