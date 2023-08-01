@@ -285,12 +285,12 @@ button:hover {
     font-size: 13px;
   }
   .container .row .column .overlay img[src$="KLS Cow Nappa.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+    height: 400px; /* Adjust the height as needed */
+    width: 280px;
   }
-  .container .row .column .overlay img[src$="KLS Cow Lining.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+  .container .row2 .column2 .overlay img[src$="KLS Cow Lining.jpg"] {
+    height: 440px; /* Adjust the height as needed */
+    width: 280px;
   }
 }
 
@@ -312,12 +312,12 @@ button:hover {
     font-size: 12px;
   }
   .container .row .column .overlay img[src$="KLS Cow Nappa.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+    height: 220px; /* Adjust the height as needed */
+    width: 160px;
   }
-  .container .row .column .overlay img[src$="KLS Cow Lining.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+  .container .row2 .column2 .overlay img[src$="KLS Cow Lining.jpg"] {
+    height: 260px; /* Adjust the height as needed */
+    width: 160px;
   }
 }
 
@@ -339,12 +339,12 @@ button:hover {
     font-size: 11px;
   }
   .container .row .column .overlay img[src$="KLS Cow Nappa.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+    height: 220px; /* Adjust the height as needed */
+    width: 160px;
   }
-  .container .row .column .overlay img[src$="KLS Cow Lining.jpg"] {
-    height: 200px; /* Adjust the height as needed */
-    width: 150px;
+  .container .row2 .column2 .overlay img[src$="KLS Cow Lining.jpg"] {
+    height: 240px; /* Adjust the height as needed */
+    width: 160px;
   }
 }
     
