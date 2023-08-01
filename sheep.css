@@ -277,8 +277,8 @@ button:hover {
     font-size: 13px;
   }
   .container .row .column .overlay img[src$="KLS Sheep.jpg"] {
-    height: 180px; /* Adjust the height as needed */
-    width: 180px;
+    height: 300px; /* Adjust the height as needed */
+    width: 280px;
   }
 }
 
