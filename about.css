@@ -165,24 +165,10 @@ html{
       }
       .heading{
         position: absolute;
-        left: 690px;
+        left: 50px;
+        top:130px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: darkgreen;
-      }
-      .row {
-        display: flex;
-        position: absolute;
-        top: 205px;
-        left:400px
-      }
-      .column {
-        padding-left:65px;
-        flex: 13.33%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-      }
-      .name-d
-      {
-        color: darkred;
       }
       .categories
       {
@@ -193,16 +179,38 @@ html{
       {
         color: darkblue;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        left: 50px;
+        top: 170px;
       }
       .name2
       {
         color: darkblue;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        left: 50px;
+        top: 210px;
+      }
+      .contact1
+      {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        left: 190px;
+        top: 180px;
+      }
+      .contact2
+      {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        left: 140px;
+        top: 220px;
       }
       .founder{
         position: absolute;
         left: 50px;
-        top: 600px;
+        top: 270px;
       }
       .founder-heading
       {
@@ -284,28 +292,7 @@ html{
     p {
       font-size: 15px;
     }
-    .Team {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    /* Adjust the size of team member images */
-    .Team .column img {
-      max-width: 80%; /* You can adjust the percentage value to your preference */
-      height: auto;
-    }
-  
-    /* Adjust the font size for team member names */
-    .Team .name1 h3,
-    .Team .name2 h3 {
-      font-size: 18px;
-    }
-  
-    /* Adjust the font size for team member designations */
-    .Team .name-d h5 {
-      font-size: 14px;
-    }
-  }
+   }
   
     /* Adjust KLS Sheep.jpg image size further for smaller devices */
   
@@ -325,21 +312,6 @@ html{
     /* Adjust font size for paragraphs */
     p {
       font-size: 13px;
-    }
-    .Team .column img {
-      max-width: 70%; /* You can adjust the percentage value to your preference */
-      height: auto;
-    }
-  
-    /* Adjust the font size for team member names */
-    .Team .name1 h3,
-    .Team .name2 h3 {
-      font-size: 16px;
-    }
-  
-    /* Adjust the font size for team member designations */
-    .Team .name-d h5 {
-      font-size: 12px;
     }
   }
   
@@ -362,21 +334,6 @@ html{
     /* Adjust font size for paragraphs */
     p {
       font-size: 12px;
-    }
-    .Team .column img {
-      max-width: 60%; /* You can adjust the percentage value to your preference */
-      height: auto;
-    }
-  
-    /* Adjust the font size for team member names */
-    .Team .name1 h3,
-    .Team .name2 h3 {
-      font-size: 14px;
-    }
-  
-    /* Adjust the font size for team member designations */
-    .Team .name-d h5 {
-      font-size: 10px;
     }
   
     /* Adjust KLS Sheep.jpg image size further for smaller devices */
