@@ -167,7 +167,7 @@ html{
         position: absolute;
         left: 50px;
         top:130px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: darkgreen;
       }
       .categories
@@ -178,7 +178,7 @@ html{
       .name1
       {
         color: darkblue;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: absolute;
         left: 50px;
         top: 170px;
@@ -186,7 +186,7 @@ html{
       .name2
       {
         color: darkblue;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: absolute;
         left: 50px;
         top: 210px;
@@ -196,7 +196,7 @@ html{
         color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: absolute;
-        left: 190px;
+        left: 205px;
         top: 180px;
       }
       .contact2
@@ -204,17 +204,20 @@ html{
         color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: absolute;
-        left: 140px;
+        left: 150px;
         top: 220px;
       }
       .founder{
         position: absolute;
         left: 50px;
         top: 270px;
+        
       }
       .founder-heading
       {
         color: darkgreen;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
       }
       .founder-desc
       {
@@ -275,29 +278,15 @@ html{
     .starting {
       display: block;
     }
+  }
+  @media screen and (max-width: 768px) {
+    /* Ensure header displays properly on mobile devices */
     .upper-bar {
       display: block;
     }
-    h1 {
-      font-size: 22px;
-    }
-    
-    /* Adjust image sizes */
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust font size for paragraphs */
-    p {
-      font-size: 15px;
-    }
-   }
   
-    /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  
-  /* Responsive styles for screens with a width of 576px or less (Mobile devices) */
-  @media screen and (max-width: 576px) {
+  }
+  @media screen and (max-width: 768px) {
     /* Adjust font size for heading elements */
     h1 {
       font-size: 20px;
@@ -313,29 +302,47 @@ html{
     p {
       font-size: 13px;
     }
+    .container {
+      padding-top: 80px; /* Adjust the value as needed */
+    }
   }
-  
-    /* Adjust KLS Sheep.jpg image size further for smaller devices */
-  
-  
-  /* Responsive styles for screens with a width of 450px or less (Small mobile devices) */
-  @media screen and (max-width: 450px) {
-    /* Adjust font size for heading elements */
-    h1 {
-      font-size: 18px;
+    @media screen and (max-width: 576px) {
+      /* Adjust font size for heading elements */
+      h1 {
+        font-size: 20px;
+      }
+      
+      /* Adjust image sizes */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Adjust font size for paragraphs */
+      p {
+        font-size: 13px;
+      }
+      .container {
+        padding-top: 80px; /* Adjust the value as needed */
+      }
     }
-    
-    /* Adjust image sizes */
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Adjust font size for paragraphs */
-    p {
-      font-size: 12px;
-    }
-  
-    /* Adjust KLS Sheep.jpg image size further for smaller devices */
-
-  }
+      @media screen and (max-width: 450px) {
+        /* Adjust font size for heading elements */
+        h1 {
+          font-size: 20px;
+        }
+        
+        /* Adjust image sizes */
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        
+        /* Adjust font size for paragraphs */
+        p {
+          font-size: 13px;
+        }
+        .container {
+          padding-top: 80px; /* Adjust the value as needed */
+        }
+      }
